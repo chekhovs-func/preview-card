@@ -3,8 +3,6 @@
 .--preview-wrapper {
   padding: 48px;
 
-  color: rgba(255, 255, 255, 100%);
-
   .--preview-icon {
     margin-bottom: 35px;
   }
@@ -12,6 +10,7 @@
   .--preview-title {
     font-family: 'Big Shoulders Display', cursive;
     font-size: 40px;
+    color: rgba(242, 242, 242, 100%);
   }
 
   .--preview-body {
@@ -37,15 +36,15 @@
     font-family: 'Lexend Deca', sans-serif;
     font-size: 15px;
 
-    background-color: rgba(255, 255, 255, 100%);
+    background-color: rgba(242, 242, 242, 100%);
 
     cursor: pointer;
   }
 
   .--preview-button:hover {
-    border: 2px solid rgba(255, 255, 255, 100%);
+    border: 2px solid rgba(242, 242, 242, 100%);
 
-    color: rgba(255, 255, 255, 100%) !important;
+    color: rgba(242, 242, 242, 100%) !important;
 
     background-color: rgba(255, 255, 255, 0%);
   }
@@ -85,7 +84,7 @@
       margin-bottom: 83px;
     }
   }
-  
+
   .--preview-wrapper:nth-of-type(1) {
     border-radius: 8px 0 0 8px;
   }
