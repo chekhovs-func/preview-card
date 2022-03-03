@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+.--preview-wrapper {
+  padding: 48px;
+
+  color: rgba(255, 255, 255, 100%);
+
+  .--preview-icon {
+    margin-bottom: 35px;
+  }
+
+  .--preview-title {
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 40px;
+  }
+
+  .--preview-body {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    color: rgba(255, 255, 255, 75%);
+  }
+
+  .--preview-title,
+  .--preview-body {
+    margin-bottom: 25px;
+  }
+
+  .--preview-button {
+    border-radius: 25px;
+    border-style: none;
+    width: 146px;
+    height: 48px;
+
+    text-align: center;
+
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+
+    background-color: rgba(255, 255, 255, 100%);
+
+    cursor: pointer;
+  }
+
+  .--preview-button:hover{
+    border: 2px solid rgba(255, 255, 255, 100%);
+
+    color: rgba(255, 255, 255, 100%) !important;
+
+    background-color: rgba(255, 255, 255, 0%);
+  }
+}
+
+.--preview-wrapper:nth-of-type(1) {
+  border-radius: 8px 8px 0 0;
+
+  background-color: rgba(226, 134, 37, 100%);
+
+  .--preview-button {
+    color: rgba(226, 134, 37, 100%);
+  }
+}
+
+.--preview-wrapper:nth-of-type(2) {
+  background-color: rgba(0, 105, 113, 100%);
+
+  .--preview-button {
+    color: rgba(0, 105, 113, 100%);
+  }
+}
+
+.--preview-wrapper:nth-of-type(3) {
+  border-radius: 0 0 8px 8px;
+
+  background-color: rgba(0, 65, 64, 100%);
+
+  .--preview-button {
+    color: rgba(0, 65, 64, 100%);
+  }
+}

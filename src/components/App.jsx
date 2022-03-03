@@ -1,5 +1,12 @@
 import '../styles/app.scss';
+import Preview from './Preview';
 
 export default function App() {
-  return <h1>App.jsx</h1>;
+  return (
+    <main className='--app-wrapper'>
+      <section className='--app-card'>
+        <Preview />
+      </section>
+    </main>
+  );
 }
