@@ -8,7 +8,7 @@ export default function Preview() {
     <>
       <article className='--preview-wrapper'>
         <img src={sedans} className='--preview-icon' />
-        <h1 className='--preview-title'>Sedans</h1>
+        <h1 className='--preview-title'>SEDANS</h1>
         <p className='--preview-body'>
           Choose a sedan for its affordability and excellent fuel economy. Ideal for
           cruising in the city or on your next road trip.
@@ -26,7 +26,7 @@ export default function Preview() {
       </article>
       <article className='--preview-wrapper'>
         <img src={luxury} className='--preview-icon' />
-        <h1 className='--preview-title'>Luxury</h1>
+        <h1 className='--preview-title'>LUXURY</h1>
         <p className='--preview-body'>
           Cruise in the best car brands without the bloated prices. Enjoy the enhanced
           comfort of a luxury rental and arrive in style.
